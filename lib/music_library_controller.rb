@@ -18,6 +18,12 @@ def call
   puts "To quit, type 'exit'."
   puts "What would you like to do?"
   user_input = gets.strip
+
+  if user_input == "exit"
+   puts "OK"
+ else
+    user_input = gets.strip
+ end
 end
 
 end
