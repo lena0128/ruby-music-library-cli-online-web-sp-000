@@ -22,7 +22,7 @@ def call
   if user_input == "exit"
    puts "OK"
  else
-    user_input = gets.strip
+    self.call
  end
 end
 
